@@ -1,6 +1,11 @@
 import './style.css'
 import typescriptLogo from './typescript.svg'
-import { Warrior } from './class/Warrior';
+
+import { Game } from '../src/class/Game';
+
+
+const game = new Game();
+
 
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `

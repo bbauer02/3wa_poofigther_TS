@@ -6,3 +6,4 @@ export enum ItemQuality {
     ARTIFACT = "Artifact",
     MYTHIC = "Mythic"
 }
+
